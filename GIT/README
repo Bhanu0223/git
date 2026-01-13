@@ -1,0 +1,21 @@
+# On Storage server in Stratos DC create a new branch xfusioncorp_cluster from master branch in /usr/src/kodekloudrepos/cluster git repo. 
+
+# On the Storage Server, go to the repository and create the new branch from master: 
+
+```bash 
+cd /usr/src/kodekloudrepos/cluster
+git checkout master
+git branch xfusioncorp_cluster
+```
+This will:
+
+Ensure you are on the master branch.
+
+Create a new branch named xfusioncorp_cluster from master.
+
+Verify:
+git branch
+You should see:
+* master
+  xfusioncorp_cluster
+###########################################
